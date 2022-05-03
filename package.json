@@ -1,0 +1,36 @@
+{
+  "name": "frady",
+  "version": "1.0.0",
+  "description": "Frady is a simple CLI Interface to help developing simple PHP Websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4SX5/frady.git"
+  },
+  "author": "Adrian Kölliker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M4SX5/frady/issues"
+  },
+  "homepage": "https://github.com/M4SX5/frady#readme",
+  "dependencies": {
+    "ask-user": "^1.1.3",
+    "await-spawn": "^4.0.2",
+    "chalk": "^5.0.1",
+    "commander": "^9.2.0",
+    "composer": "^4.1.0",
+    "conf": "^10.1.2",
+    "copyfiles": "^2.4.1",
+    "create-file": "^1.0.1",
+    "git-clone": "^0.2.0",
+    "make-dir": "^3.1.0",
+    "prompt-question": "^5.0.2",
+    "prompt-sync": "^4.2.0"
+  },
+  "bin": {
+    "frady": "./index.js"
+  }
+}
