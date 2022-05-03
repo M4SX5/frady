@@ -1,0 +1,13 @@
+{
+    "name": "sgfs/test",
+    "description": "Das ist eine Beschreibung",
+    "authors": [
+        {
+            "name": "Adrian Koelliker",
+            "email": "adriankoelliker@hotmail.ch"
+        }
+    ],
+    "require": {
+        "nikic/fast-route": "^1.3"
+    }
+}
